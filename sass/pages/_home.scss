@@ -1,0 +1,76 @@
+.hero-image-banner {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  padding: 180px 0;
+}
+.hero-content {
+  text-align: center;
+  .hero-content--subheading {
+    h3 {
+      font-size: 40px;
+      color: #2d2d2d;
+      margin: 0;
+    }
+  }
+  .hero-content--heading {
+    h2 {
+      font-size: 80px;
+      color: #2d2d2d;
+      margin: 0;
+    }
+  }
+  .hero-content--desc {
+    p {
+      font-size: 25px;
+      letter-spacing: 1px;
+      color: #2d2d2d;
+      font-family: "Futura PT";
+      margin: 0;
+    }
+  }
+}
+
+.electricity-rate-tabs {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  margin: 40px 0;
+  .business {
+    margin: 10px;
+    a {
+      border-radius: 6px;
+      box-shadow: 0px 4px 10px rgba(118, 118, 118, 0.09);
+      background-color: #4fb651;
+      font-size: 25px;
+      letter-spacing: 0px;
+      color: #ffffff;
+      font-family: "Futura PT Book";
+      text-align: center;
+      padding: 15px 25px;
+      &:hover {
+        background-color: #4c984e;
+      }
+    }
+  }
+  .residential {
+    margin: 10px;
+    a {
+      border-radius: 6px;
+      box-shadow: 0px 4px 10px rgba(118, 118, 118, 0.09);
+      background-color: #1eb3e4;
+      font-size: 25px;
+      letter-spacing: 0px;
+      color: #fff;
+      font-family: "Futura PT Book";
+      text-align: center;
+      padding: 15px 45px;
+      &:hover {
+        background-color: #319cbf;
+      }
+    }
+  }
+  img {
+    margin-top: -8px;
+  }
+}

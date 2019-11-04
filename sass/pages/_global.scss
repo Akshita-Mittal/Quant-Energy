@@ -1,0 +1,103 @@
+.wrapper {
+  padding: 30px 0;
+  background-color: #f5f5f5;
+}
+.wrapper-content {
+  border-radius: 14px;
+  box-shadow: 0px 4px 10px rgba(118, 118, 118, 0.09);
+  background-color: #ffffff;
+  padding: 60px;
+  margin: 30px 10px;
+  .wrapper-heading {
+    h2 {
+      font-size: 30px;
+      line-height: 1.5;
+      color: #2d2d2d;
+      margin: 0;
+    }
+  }
+  .wrapper-heading-desc {
+    p {
+      font-size: 20px;
+      letter-spacing: 0px;
+      line-height: 1.5;
+      color: #555555;
+      font-family: "Futura PT Book";
+      margin: 0;
+      padding: 15px 0;
+    }
+  }
+  .wrapper-subheading {
+    h3 {
+      font-size: 25px;
+      line-height: 1.5;
+      color: #2d2d2d;
+      font-family: "Futura PT";
+      font-weight: 500;
+      margin: 0;
+    }
+  }
+  .wrapper-subheading-desc {
+    p {
+      font-size: 20px;
+      letter-spacing: 0px;
+      line-height: 1.5;
+      color: #555555;
+      font-family: "Futura PT Book";
+      margin: 0;
+      padding: 15px 0;
+    }
+  }
+  .wrapper-queries ul {
+    padding: 0 20px;
+    list-style: none;
+  }
+  .wrapper-queries ul li {
+    position: relative;
+  }
+
+  .wrapper-queries ul li::before {
+    content: "\2022";
+    color: #26b2e4;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline-block;
+    width: 1em;
+    margin-left: -25px;
+    margin-top: -5px;
+    position: absolute;
+  }
+
+  .wrapper-queries ul li h3 {
+    font-size: 22px;
+    line-height: 1.5;
+    color: #2d2d2d;
+    font-family: "Futura PT";
+    font-weight: 500;
+    margin: 0;
+  }
+  .wrapper-queries ul li p {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 1.5;
+    color: #555555;
+    font-family: "Futura PT Book";
+    margin: 0;
+    padding: 15px 0;
+  }
+
+  .back-to-top {
+    padding: 10px 0 30px;
+    a {
+      font-size: 22px;
+      line-height: 1.5;
+      color: #1eb2e4;
+      font-family: "Futura PT";
+      font-weight: 500;
+    }
+  }
+}
+
+.policy-change ul li p {
+  padding: 0 !important;
+}

@@ -1,0 +1,327 @@
+.Enquiry-Form-wrap {
+  padding: 30px 0;
+  background-color: #f5f5f5;
+  .theme-content--desc {
+    p {
+      font-size: 18px;
+      letter-spacing: 0px;
+      line-height: 1.5;
+      color: #2d2d2d;
+      font-family: "Futura PT Book";
+      margin: 0;
+      padding: 10px 0;
+    }
+  }
+  .Enquiry-Form {
+    border-radius: 14px;
+    box-shadow: 0px 4px 10px rgba(118, 118, 118, 0.09);
+    background-color: #ffffff;
+    padding: 60px;
+    margin: 30px 10px;
+    // &::before {
+    //   content: "";
+    //   position: absolute;
+    //   width: 100%;
+    //   height: 100%;
+    //   left: 0%;
+    //   top: -17%;
+    //   background-image: url(../../images/form-bg.png);
+    //   background-repeat: no-repeat;
+    //   background-size: contain;
+    // }
+    .accept-terms {
+      border-top: 1.22px solid #ccc;
+      padding: 20px 0 0;
+    }
+    .form-row > .col,
+    .form-row > [class*="col-"] {
+      padding: 0 20px;
+    }
+    .form-group {
+      .field-title {
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 1.5;
+        color: #2d2d2d;
+        font-family: "Futura PT Demi";
+        text-transform: uppercase;
+      }
+
+      .input-group {
+        border-radius: 5px;
+        background-color: #ffffff;
+        border: 2px solid #ebebeb;
+        padding: 5px;
+
+        select {
+          background-color: transparent;
+          color: #c5c5c5 !important;
+          height: 44px;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+        }
+        .icon {
+          position: absolute;
+          bottom: 10px;
+          right: 10px;
+          font-size: 20px;
+          line-height: 2;
+        }
+        .form-control {
+          border: none;
+          font-size: 20px;
+          letter-spacing: 0px;
+          line-height: 1.5;
+          color: #2d2d2d;
+          font-family: "Futura PT Book";
+          &:focus {
+            border: none !important;
+            box-shadow: none !important;
+          }
+        }
+        .input-group-text {
+          border: none;
+          background-color: transparent;
+        }
+
+        input::placeholder {
+          font-size: 20px;
+          color: #c5c5c5 !important;
+        }
+      }
+      .form-check {
+        padding: 0;
+        .form-check-label {
+          font-size: 18px;
+          letter-spacing: 0px;
+          line-height: 2;
+          color: #555555;
+          font-family: "Futura PT";
+        }
+        input[type="checkbox"] {
+          display: none;
+        }
+
+        input[type="checkbox"] + label {
+          display: block;
+          cursor: pointer;
+        }
+
+        input[type="checkbox"] + label:before {
+          content: "";
+          background: url("../../images/icons/check.png");
+          display: inline-block;
+          width: 14px;
+          height: 24px;
+          padding-left: 30px;
+          vertical-align: middle;
+          color: transparent;
+          transition: 0.2s;
+          background-repeat: no-repeat !important;
+          background-size: 19px;
+        }
+
+        input[type="checkbox"] + label:active:before {
+          transform: scale(0);
+        }
+
+        input[type="checkbox"]:checked + label:before {
+          background: url("../../images/icons/uncheck.png");
+          background-repeat: no-repeat !important;
+          background-size: 19px;
+        }
+
+        .label-check {
+          display: block;
+          position: relative;
+          padding-left: 35px;
+          margin-bottom: 20px;
+          cursor: pointer;
+          font-size: 22px;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+          font-size: 18px;
+          letter-spacing: 0px;
+          color: #555555;
+          font-family: "Futura PT";
+          input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+          }
+        }
+        .checkmark {
+          position: absolute;
+          top: 3px;
+          left: 0;
+          height: 25px;
+          width: 25px;
+          background-color: #ffffff;
+          border: 2px solid #222222;
+          border-radius: 50%;
+        }
+
+        .label-check input:checked ~ .checkmark {
+          background-color: #ffffff;
+          border: 2px solid #1eb2e4;
+        }
+
+        .checkmark:after {
+          content: "";
+          position: absolute;
+          display: none;
+        }
+
+        .label-check input:checked ~ .checkmark:after {
+          display: block;
+        }
+
+        .label-check .checkmark:after {
+          top: 3px;
+          left: 3px;
+          width: 15px;
+          height: 15px;
+          border-radius: 50%;
+          background: #1eb2e4;
+        }
+      }
+      .submit-btn {
+        border-radius: 7px;
+        background-color: #ed555e;
+        border: 2px solid #ed555e;
+        font-size: 18px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-family: "Futura PT Book";
+        padding: 15px 55px;
+        &:hover {
+          background-color: transparent;
+          color: #ed555e;
+        }
+      }
+    }
+  }
+}
+
+#submitmodal {
+  .modal-content {
+    padding: 0 0 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: none;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    .modal-body {
+      .modal-title {
+        font-size: 48px;
+        line-height: 1.5;
+        color: #1eb2e4;
+        font-family: "Futura PT";
+        font-weight: 500;
+        text-align: center;
+      }
+      .modal-desc {
+        font-size: 22px;
+        line-height: 38px;
+        color: #555555;
+        font-family: "Futura PT Book";
+        text-align: center;
+        margin: 0;
+      }
+    }
+  }
+  .modal-footer {
+    border: none;
+    margin: auto;
+    .ok-btn {
+      border-radius: 7px;
+      background-color: #1eb2e4;
+      border: 2px solid #1eb2e4;
+      padding: 15px 50px;
+      font-size: 18px;
+      letter-spacing: 0px;
+      color: #ffffff;
+      font-family: "Futura PT";
+      text-align: center;
+      &:hover {
+        background-color: #fff;
+        color: #1eb2e4;
+      }
+    }
+  }
+}
+
+// .qs {
+//   border-radius: 16px;
+//   color: #1eb2e4;
+//   cursor: default;
+//   display: inline-block;
+//   font-family: "Futura PT";
+//   font-weight: 900;
+//   font-size: 18px;
+//   position: relative;
+//   text-align: center;
+//   width: 30px;
+// }
+.qs {
+  border-radius: 16px;
+  color: #1eb2e4;
+  cursor: default;
+  display: inline-block;
+  font-family: "Futura PT";
+  font-weight: 900;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  width: 30px;
+
+  .popover {
+    bottom: auto;
+    top: 35px;
+    display: none;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666565;
+    font-family: "Futura PT Book";
+    left: -10px;
+    padding: 15px;
+    position: absolute;
+    width: max-content;
+    z-index: 4;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 2px 62px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    .popover-title {
+      font-size: 23px;
+      letter-spacing: 0px;
+      line-height: 1.5;
+      color: #1eb2e4;
+      font-family: "Futura PT";
+      margin: 0;
+    }
+    &:before {
+      top: -20px;
+      left: 16px;
+      display: block;
+      position: absolute;
+      color: #ffffff;
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: 30px;
+      content: "\f0d8";
+    }
+  }
+
+  &:hover {
+    .popover {
+      display: block;
+      // -webkit-animation: fade-in 0.3s linear 1, move-up 0.3s linear 1;
+      // -moz-animation: fade-in 0.3s linear 1, move-up 0.3s linear 1;
+      // -ms-animation: fade-in 0.3s linear 1, move-up 0.3s linear 1;
+    }
+  }
+}

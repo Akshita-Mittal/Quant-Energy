@@ -1,0 +1,43 @@
+.coming-soon {
+  padding: 144px 0;
+  .theme-content {
+    text-align: center;
+    .theme-icon {
+      width: 93px;
+      height: 82px;
+      border-radius: 7px;
+      background-color: #4fb651;
+      text-align: center;
+      margin: 15px auto;
+      img {
+        margin: 24px;
+      }
+    }
+    .theme-content--subheading {
+      h3 {
+        font-size: 48px;
+        color: #000000;
+        font-family: "Futura PT Book";
+        margin: 0;
+      }
+    }
+    .theme-content--heading {
+      h2 {
+        font-size: 84px;
+        color: #1eb2e4;
+        font-family: "Futura PT";
+        font-weight: 500;
+        text-transform: uppercase;
+        margin: 0;
+      }
+    }
+    .theme-content--desc {
+      p {
+        font-size: 25px;
+        color: #666565;
+        font-family: "Futura PT Book";
+        margin: -10px;
+      }
+    }
+  }
+}

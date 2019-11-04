@@ -1,0 +1,40 @@
+header {
+  padding: 15px 0;
+  background-color: #f5f5f5;
+
+  nav {
+    ul {
+      li {
+        padding: 8px;
+        a {
+          font-size: 20px;
+          letter-spacing: 0px;
+          color: #4a4848 !important;
+          line-height: 1.5;
+          font-family: "Futura PT Demi";
+          &:hover {
+            color: #ed555e !important;
+          }
+        }
+      }
+    }
+  }
+
+  .login-btn {
+    a {
+      border-radius: 7px;
+      border: 2px solid #ed555e;
+      background-color: #ed555e;
+      font-size: 18px;
+      letter-spacing: 0px;
+      color: #ffffff !important;
+      font-family: "Futura PT";
+      text-align: center;
+      padding: 15px 25px;
+      &:hover {
+        background-color: transparent;
+        color: #ed555e !important;
+      }
+    }
+  }
+}

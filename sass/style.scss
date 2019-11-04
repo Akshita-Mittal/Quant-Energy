@@ -1,0 +1,11 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "layout/header";
+@import "layout/footer";
+@import "base/reset";
+@import "base/typography";
+@import "abstract/init";
+@import "pages/home";
+@import "pages/coming-soon";
+@import "pages/Enquiry-Form";
+@import "pages/global";
+@import "abstract/media.scss";
